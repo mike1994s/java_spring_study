@@ -12,13 +12,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class HelloWorld {
 
-    public static void main(String[] argv){
-     /*   MessageProvider messageProvider = new HelloWorldМessageProvider();
-        MessageRenderer messageRenderer = new StandardOutMessageRenderer();
-        messageRenderer.setMessageProvider(messageProvider);
-        messageRenderer.render(); */
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
-        MessageRenderer messageRenderer = applicationContext.getBean("renderer", MessageRenderer.class);
-        messageRenderer.render();
-    }
+//    public static void main(String[] argv){
+//     /*   MessageProvider messageProvider = new HelloWorldМessageProvider();
+//        MessageRenderer messageRenderer = new StandardOutMessageRenderer();
+//        messageRenderer.setMessageProvider(messageProvider);
+//        messageRenderer.render(); */
+//        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
+//        MessageRenderer messageRenderer = applicationContext.getBean("renderer", MessageRenderer.class);
+//        messageRenderer.render();
+//    }
 }
